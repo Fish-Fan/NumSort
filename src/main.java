@@ -24,8 +24,11 @@ public class main {
 //        InsertDirectly.insertDirectly(array);
 
         //二分插入排序
-        TwoPointInsertSort.sort(array);
-        main.printArray(array);
+//        TwoPointInsertSort.sort(array);
+//        main.printArray(array);
+
+        //希尔排序
+        ShellInsertSort.sort(array);
 
 
 
